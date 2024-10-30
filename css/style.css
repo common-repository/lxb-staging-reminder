@@ -1,0 +1,20 @@
+/**
+ * Our plugin-wide CSS file.
+ *
+ * @package WordPress
+ * @subpackage LXB Staging Reminder
+ * @since LXB Staging Reminder 0.1
+ */
+
+/**
+ * TABLE OF CONTENTS
+ */
+.LXB_Staging_Reminder {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 15px;
+	background: repeating-linear-gradient( 135deg, #ebd007, #ebd007 30px, #555 30px, #555 60px );
+	z-index: 900;
+}
